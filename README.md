@@ -1,5 +1,7 @@
 # Vr-PishingGame
 
+master branch에 있다 주현아
+
 VR 1인칭 낚시게임.
 
 0. 오큘러스와 낚시대 상호작용

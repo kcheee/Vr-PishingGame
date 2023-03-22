@@ -28,8 +28,13 @@ public class Boat : MonoBehaviour
 
         // Float up/down with a Sin()
         tempPos = posOffset;
+        // sin은 상하각도 반복.
         tempPos.y += Mathf.Sin(Time.fixedTime * Mathf.PI * frequency) * amplitude;
 
         transform.position = tempPos;
+
+        // 보트 움직임 테스트 해야됌
+
+
     }
 }

@@ -15,7 +15,7 @@ C:/Users/cksgm/OneDrive/바탕 화면/computer_science/Pish Game/pish Game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-63519
+61535
 Successfully changed project path to: C:/Users/cksgm/OneDrive/바탕 화면/computer_science/Pish Game/pish Game
 C:/Users/cksgm/OneDrive/바탕 화면/computer_science/Pish Game/pish Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ C:/Users/cksgm/OneDrive/바탕 화면/computer_science/Pish Game/pish Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 126.41 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.75 ms.
+Refreshing native plugins compatible for Editor in 147.22 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.68 ms.
 Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/cksgm/OneDrive/바탕 화면/computer_science/Pish Game/pish Game/Assets
@@ -65,39 +65,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013921 seconds.
+Registered in 0.017491 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 120.18 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Refreshing native plugins compatible for Editor in 105.40 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.673 seconds
+- Completed reload, in  0.638 seconds
 Domain Reload Profiling:
-	ReloadAssembly (673ms)
-		BeginReloadAssembly (91ms)
+	ReloadAssembly (638ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (474ms)
-			LoadAssemblies (88ms)
+		EndReloadAssembly (437ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (99ms)
+			SetupTypeCache (91ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (295ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (275ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (55ms)
+				InitializePlatformSupportModulesInManaged (54ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (120ms)
+				RefreshPlugins (106ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (78ms)
+				ProcessInitializeOnLoadAttributes (73ms)
 				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -105,14 +105,14 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011053 seconds.
+Registered in 0.012561 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\cksgm\OneDrive\바탕 화면\computer_science\Pish Game\pish Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\cksgm\OneDrive\바탕 화면\computer_science\Pish Game\pish Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.15 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
 Package Manager log level set to [2]
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -120,45 +120,45 @@ Package Manager log level set to [2]
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.82.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.292 seconds
+- Completed reload, in  1.266 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1293ms)
-		BeginReloadAssembly (232ms)
+	ReloadAssembly (1266ms)
+		BeginReloadAssembly (224ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (125ms)
-		EndReloadAssembly (937ms)
-			LoadAssemblies (136ms)
+			CreateAndSetChildDomain (120ms)
+		EndReloadAssembly (921ms)
+			LoadAssemblies (121ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
+			SetupTypeCache (253ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (434ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (453ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (259ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (274ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'CalmWater/Calm Water [DX11] [Double Sided]': fallback shader 'Legacy/Diffuse' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.05 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 4968 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 59 unused Assets / (190.9 KB). Loaded Objects now: 5429.
-Memory consumption went from 200.0 MB to 199.8 MB.
-Total: 3.172400 ms (FindLiveObjects: 0.399500 ms CreateObjectMapping: 0.236000 ms MarkObjects: 2.378300 ms  DeleteObjects: 0.157400 ms)
+Refreshing native plugins compatible for Editor in 1.08 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 4969 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (199.9 KB). Loaded Objects now: 5432.
+Memory consumption went from 200.2 MB to 200.0 MB.
+Total: 3.445800 ms (FindLiveObjects: 0.394700 ms CreateObjectMapping: 0.243900 ms MarkObjects: 2.633200 ms  DeleteObjects: 0.172900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -172,239 +172,99 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 92655.218224 seconds.
-  path: Assets/Water_Splashes
-  artifactKey: Guid(603a34dd743874e4ca50d253c9bac8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Water_Splashes using Guid(603a34dd743874e4ca50d253c9bac8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a3ed36cb331ac761c498649305daf4') in 0.009618 seconds 
+  Time since last request: 114651.815860 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/block_wood_01.fbx
+  artifactKey: Guid(6ec0c875cb1c94e40afcad0a0161eb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/block_wood_01.fbx using Guid(6ec0c875cb1c94e40afcad0a0161eb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b70dc66cc9eb046b8cc9f9ca99ecbef') in 0.232403 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.310595 seconds.
-  path: Assets/Water_Splashes/Audio/Ocean_Audio.mp3
-  artifactKey: Guid(2ed697d81db87c14ba0097e2679603d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Water_Splashes/Audio/Ocean_Audio.mp3 using Guid(2ed697d81db87c14ba0097e2679603d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61d768f477371f55241f5407ea7cec1') in 0.099290 seconds 
+  Time since last request: 0.879075 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Textures/OCUI_24_Filled_2x.png
+  artifactKey: Guid(7f186a9ac091755489927d745be0185a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Textures/OCUI_24_Filled_2x.png using Guid(7f186a9ac091755489927d745be0185a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7771072802e998d261a59442600e8c') in 0.834326 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Water_Splashes/Audio/Small_Splash_Audio.mp3
-  artifactKey: Guid(86d1b399b03aefa49aeab36a8815de4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Water_Splashes/Audio/Small_Splash_Audio.mp3 using Guid(86d1b399b03aefa49aeab36a8815de4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd675580a22bce3b4e8c69ac35e77dc90') in 0.009274 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/Oculus/Interaction/Runtime/ThirdParty/InterfaceSupport/Editor/Oculus.Interaction.InterfaceSupport.asmdef
+  artifactKey: Guid(62f0806efa855234fa40d98ad397e1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Runtime/ThirdParty/InterfaceSupport/Editor/Oculus.Interaction.InterfaceSupport.asmdef using Guid(62f0806efa855234fa40d98ad397e1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2216220f9a05a03864a2316e0f1a13') in 0.011959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Oculus/AudioManager/Scripts/Audio/Editor/Oculus.AudioManager.Audio.Editor.asmdef
+  artifactKey: Guid(e2367297a6c431949a05cf8078ad917d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/AudioManager/Scripts/Audio/Editor/Oculus.AudioManager.Audio.Editor.asmdef using Guid(e2367297a6c431949a05cf8078ad917d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7d8437e66c585ec6dab83fb4dc3edd') in 0.001909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Oculus/VR/Editor/Oculus.VR.Editor.asmdef
+  artifactKey: Guid(d2761a0af0f567748a72629d4bb18a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Editor/Oculus.VR.Editor.asmdef using Guid(d2761a0af0f567748a72629d4bb18a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e70b1f5a81a08cf269ad48250398195') in 0.002358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Oculus/Interaction/Samples/Scripts/HandGrabRecord/Editor/Oculus.Interaction.Samples.Editor.asmdef
+  artifactKey: Guid(0ae31ae32e3e80a48806ef598d17341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Scripts/HandGrabRecord/Editor/Oculus.Interaction.Samples.Editor.asmdef using Guid(0ae31ae32e3e80a48806ef598d17341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af05259307a96f60c3271502deacec1b') in 0.002080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Oculus/Interaction/Runtime/Oculus.Interaction.asmdef
+  artifactKey: Guid(2a230cb87a1d3ba4a98bdc0ddae76e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Runtime/Oculus.Interaction.asmdef using Guid(2a230cb87a1d3ba4a98bdc0ddae76e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be67dc243765563536c034113ae1d89d') in 0.002257 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013880 seconds.
+Registered in 0.014694 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\cksgm\OneDrive\바탕 화면\computer_science\Pish Game\pish Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\cksgm\OneDrive\바탕 화면\computer_science\Pish Game\pish Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.95 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.19 ms.
-[Package Manager] Server::Start -- Port 63844 was selected
+Refreshing native plugins compatible for Editor in 1.26 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+[Package Manager] Server::Start -- Port 61676 was selected
 [Package Manager] Cannot connect to Unity Package Manager local server
 [Package Manager] Cannot connect to Unity Package Manager local server
 [Package Manager] Cannot connect to Unity Package Manager local server
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.178 seconds
+- Completed reload, in  1.459 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1178ms)
-		BeginReloadAssembly (159ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (906ms)
-			LoadAssemblies (140ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (422ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (241ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Shader 'CalmWater/Calm Water [DX11] [Double Sided]': fallback shader 'Legacy/Diffuse' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 9.45 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 4871 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (167.1 KB). Loaded Objects now: 5441.
-Memory consumption went from 195.9 MB to 195.8 MB.
-Total: 2.944300 ms (FindLiveObjects: 0.355800 ms CreateObjectMapping: 0.195800 ms MarkObjects: 2.239400 ms  DeleteObjects: 0.152400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 103.734978 seconds.
-  path: Assets/Water_Splashes/Prefabs/BigSplash_Size_B.prefab
-  artifactKey: Guid(a5927d048fa82fe42afd81fad00c76ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Water_Splashes/Prefabs/BigSplash_Size_B.prefab using Guid(a5927d048fa82fe42afd81fad00c76ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93dc8b398afa7148e0a59b361c71e7e2') in 0.130239 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Water_Splashes/Prefabs/SmallSplash_Size_B.prefab
-  artifactKey: Guid(2a176afa3f08aea4fabe20d14587ce4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Water_Splashes/Prefabs/SmallSplash_Size_B.prefab using Guid(2a176afa3f08aea4fabe20d14587ce4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4e0f4c1dc26867cbefb4d08bc46b9e') in 0.029323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Water_Splashes/Prefabs/Ocean_Audio.prefab
-  artifactKey: Guid(f860c3eecb0d83c4cb6f81bc3a9a2386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Water_Splashes/Prefabs/Ocean_Audio.prefab using Guid(f860c3eecb0d83c4cb6f81bc3a9a2386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1c920b984386078fc4cea9ccb4c718') in 0.006081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Water_Splashes/Prefabs/SmallSplash_Size_C.prefab
-  artifactKey: Guid(fd2a5cf43b238f24fbaaa9f242f2419c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Water_Splashes/Prefabs/SmallSplash_Size_C.prefab using Guid(fd2a5cf43b238f24fbaaa9f242f2419c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bad4bafc8491973baea1076b7e06759') in 0.018136 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.934700 seconds.
-  path: Assets/Water_Splashes/FBX/Materials/BigSplash_Wake_mtl.mat
-  artifactKey: Guid(e486fabbfbc547d41a7aa30ea2f6343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Water_Splashes/FBX/Materials/BigSplash_Wake_mtl.mat using Guid(e486fabbfbc547d41a7aa30ea2f6343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae767ea1040a8f7a101e7ca42fd8800') in 0.032681 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Water_Splashes/FBX/Materials/SmalSplash_Water_Spray_mtl.mat
-  artifactKey: Guid(aeffff9621d2f6849a200f898c61d65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Water_Splashes/FBX/Materials/SmalSplash_Water_Spray_mtl.mat using Guid(aeffff9621d2f6849a200f898c61d65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49053afa2cad232202cf043f34066e0') in 0.012972 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Water_Splashes/FBX/Materials/SmallSplash_Jet_mtl.mat
-  artifactKey: Guid(cbfe2a94e1a0e7741a9a1a93ddf9eee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Water_Splashes/FBX/Materials/SmallSplash_Jet_mtl.mat using Guid(cbfe2a94e1a0e7741a9a1a93ddf9eee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64279f5d03c956e3ca31b14e1d1cdeb') in 0.016252 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015359 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\cksgm\OneDrive\바탕 화면\computer_science\Pish Game\pish Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\cksgm\OneDrive\바탕 화면\computer_science\Pish Game\pish Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.16 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- Spent [71] seconds sending health check requests
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- Spent [71] seconds sending health check requests
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  1.325 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1326ms)
-		BeginReloadAssembly (198ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (991ms)
-			LoadAssemblies (184ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (481ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (120ms)
-				ProcessInitializeOnLoadAttributes (275ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (22ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Shader 'CalmWater/Calm Water [DX11] [Double Sided]': fallback shader 'Legacy/Diffuse' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 11.19 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 4871 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (167.0 KB). Loaded Objects now: 5480.
-Memory consumption went from 196.9 MB to 196.7 MB.
-Total: 3.762000 ms (FindLiveObjects: 0.378900 ms CreateObjectMapping: 0.339600 ms MarkObjects: 2.826900 ms  DeleteObjects: 0.214100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013875 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\cksgm\OneDrive\바탕 화면\computer_science\Pish Game\pish Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\cksgm\OneDrive\바탕 화면\computer_science\Pish Game\pish Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.354 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1354ms)
-		BeginReloadAssembly (226ms)
+	ReloadAssembly (1460ms)
+		BeginReloadAssembly (211ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (993ms)
-			LoadAssemblies (197ms)
+		EndReloadAssembly (1104ms)
+			LoadAssemblies (209ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (271ms)
+			SetupTypeCache (320ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (479ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (481ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (128ms)
-				ProcessInitializeOnLoadAttributes (267ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (24ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (279ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (26ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
 Platform modules already initialized, skipping
 Shader 'CalmWater/Calm Water [DX11] [Double Sided]': fallback shader 'Legacy/Diffuse' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 7.67 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 4871 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (167.0 KB). Loaded Objects now: 5484.
-Memory consumption went from 197.7 MB to 197.5 MB.
-Total: 2.773800 ms (FindLiveObjects: 0.354900 ms CreateObjectMapping: 0.172700 ms MarkObjects: 2.112200 ms  DeleteObjects: 0.133200 ms)
+Refreshing native plugins compatible for Editor in 9.03 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 4872 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (84.3 KB). Loaded Objects now: 5449.
+Memory consumption went from 196.6 MB to 196.5 MB.
+Total: 2.888400 ms (FindLiveObjects: 0.350500 ms CreateObjectMapping: 0.201100 ms MarkObjects: 2.189300 ms  DeleteObjects: 0.145900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

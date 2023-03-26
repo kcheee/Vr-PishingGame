@@ -540,8 +540,9 @@
 "Assets/Oculus/SampleFramework/Usage/TouchPro/Scripts/Ui/UiSceneMenu.cs"
 "Assets/Oculus/SampleFramework/Usage/TouchPro/Scripts/Ui/UiVectorInspector.cs"
 "Assets/Oculus/Voice/Lib/Wit.ai/AssemblyInfo.cs"
-"Assets/Script/Boat.cs"
+"Assets/Script/BoatMove.cs"
 "Assets/Script/Fish/Fish.cs"
+"Assets/Script/UpDown.cs"
 "Assets/Water_Splashes/Scripts/Big_Splash.cs"
 "Assets/Water_Splashes/Scripts/Small_Splash.cs"
 -langversion:9.0

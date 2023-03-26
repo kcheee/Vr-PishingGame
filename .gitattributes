@@ -1,1 +1,7 @@
 pish[[:space:]]Game/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
+ filter=lfs diff=lfs merge=lfs -text
+[[:space:]] filter=lfs diff=lfs merge=lfs -text
+.git/objects/pack/pack-69bb6b5971368aff51cc679461e67f3946a7eacf.pack filter=lfs diff=lfs merge=lfs -text
+pish_Game/Assets/Oculus/LipSync/Plugins/iOS/libOVRLipSync.dylib filter=lfs diff=lfs merge=lfs -text
+pish_Game/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle filter=lfs diff=lfs merge=lfs -text
+pish_Game/Assets/Water_Splashes/Textures/SmallSplash_Ripples_TextureSheet.tif filter=lfs diff=lfs merge=lfs -text
